@@ -1,0 +1,19 @@
+:root {
+  --dark-green: #2C3E50;
+  --green: #1ABC9C;
+  --white: #FFFFFF;
+}
+/* debug utility */
+[class^="row"],
+[class^="col"] {
+  background-color: rgba(225, 58, 58, 0.2);
+  border: 1px solid black;
+  }
+  
+/*  /debug utility */ 
+
+
+ .container_sp {
+  margin: 0 auto;
+  width: 70%;
+ }
