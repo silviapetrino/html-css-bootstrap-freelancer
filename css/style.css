@@ -28,16 +28,17 @@
 
  /* utilities */
 
+.green_bg {
+  background-color: var(--green);
+}
+
 .dark-green_bg {
   background-color: var(--dark-green);
 }
 
+
 .footer-green_bg {
   background-color: var(--green-footer);
-}
-
-.green_bg {
-  background-color: var(--green);
 }
 
 .white_bg {
@@ -162,9 +163,15 @@ section#hero_ .image {
 }
 
 /* /portfolio section  */
-
-/* contancts section */
-
+/* footer  */
 
 
-/* /contancts section */
+
+/* footer  */
+
+#footer i {
+  font-size: .9rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
