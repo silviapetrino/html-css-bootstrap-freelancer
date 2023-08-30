@@ -5,36 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css">
   <title>Bootstrap</title>
 </head>
 <body>
 
-  <header>
-     <div class="container">
-      <div class="row row-cols-3 align-items-center">
-        <div class="col">logo</div>
-        <div class="col d-md-none offset-4 text-end">hambu</div>
-        <div class="col d-none d-md-block offset-4 text-end">menu</div>
+  <header class="dark-green_bg d-flex align-items-center">
+      <div class="container fs-6">
+        <nav class="navbar navbar-expand-lg nav_sp">
+          <div class="container-fluid">
+            <a class="navbar-brand text-uppercase fw-bold white_txt" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler white_bg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-bold white_txt" aria-current="page" href="#">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-bold white_txt" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-bold white_txt" href="#">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </div>
   </header>
+
+
   <main>
 
     <!-- hero section  -->
-    <section class="container">
+    <section id="hero_" class="green_bg">
+      <div class="container">
         <div class="row flex-column justify-content-center align-items-center text-center">
-          <div class="col">img</div>
-          <div class="col">testo</div>
+          <div class="col image">
+            <img src="./img/avatar.svg" alt="avatar" class="h-100 w-100 object-fit-cover">
+          </div>
+          <div class="col d-flex flex-column align-items-center justify-content-center">
+            <h2 class="text-uppercase white_txt fw-bold py-2">start bootstrap</h2>
+            <div class="star white_bg mb-4">
+              <i class="fa-solid fa-star white_txt green_bg p-2"></i>
+            </div>
+            <p class="white_txt text-uppercase fw-normal pb-2">graphic artist - web designer - illustrator</p>
+          </div>
         </div>
+      </div>
+    
     </section>
 
      <!-- /hero section  -->
 
      <!-- portfolio card section  -->
-    <section class="container">
+    <section class="container my-3">
         <div class="row justify-content-center align-items-center text-center">
-          <div class="col">portfolio</div>
+          <div class="col d-flex flex-column align-items-center justify-content-center">
+            <h3 class="dark_txt text-uppercase fw-normal fw-bold  py-2">portfolio</h3>
+            <div class="star dark_bg mt-3 mb-2">
+              <i class="fa-solid fa-star white_bg p-2"></i>
+            </div>
+          </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div class="col">1</div>
