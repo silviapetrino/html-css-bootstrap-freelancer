@@ -7,24 +7,7 @@
   --green-footer: #3A546D;
 }
 
-/* debug utility */
-/* [class^="row"],
-[class^="col"] {
-  background-color: rgba(225, 58, 58, 0.2);
-  border: 1px solid black;
-  } */
 
-
-.debug {
-  border: 1px solid rgb(0, 0, 0);
-}
-  
-/*  /debug utility */ 
-
- .container_sp {
-  margin: 0 auto;
-  width: 60%;
- }
 
  /* utilities */
 
@@ -35,7 +18,6 @@
 .dark-green_bg {
   background-color: var(--dark-green);
 }
-
 
 .footer-green_bg {
   background-color: var(--green-footer);
@@ -60,7 +42,8 @@
 .green_txt {
   color: var(--green);
 }
- /* star element */
+
+   /* star element */
 
  .star {
   width: 30%;
@@ -78,10 +61,14 @@
 }
 
 
-
  /* /utilities */
 
 /* custom classes */
+
+.container_sp {
+  margin: 0 auto;
+  width: 70%;
+}
 
 
 .nav_sp:first-of-type a:hover {
@@ -177,4 +164,8 @@ section#hero_ .image {
   width: 40px;
   height: 40px;
   line-height: 40px;
+}
+
+#footer .copyright {
+  font-size: .8rem;
 }
