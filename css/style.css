@@ -57,6 +57,9 @@
   color: var(--dark);
 }
 
+.green_txt {
+  color: var(--green);
+}
  /* star element */
 
  .star {
