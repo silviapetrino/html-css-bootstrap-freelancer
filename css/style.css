@@ -3,6 +3,8 @@
   --green: #1ABC9C;
   --white: #FFFFFF;
   --dark: #333333;
+  --green-star: #2C3E50;
+  --green-footer: #3A546D;
 }
 
 /* debug utility */
@@ -28,6 +30,10 @@
 
 .dark-green_bg {
   background-color: var(--dark-green);
+}
+
+.footer-green_bg {
+  background-color: var(--green-footer);
 }
 
 .green_bg {
@@ -86,7 +92,20 @@
   border-color: var(--white);
 }
 
-/* custom classes */
+.input_sp {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.input_sp::placeholder {
+  color: black;
+}
+
+
+/* /custom classes */
 
 
 /* header section */
@@ -143,11 +162,9 @@ section#hero_ .image {
 }
 
 /* /portfolio section  */
-/* about section  */
 
-#about p {
-  font-weight: 600;
-}
+/* contancts section */
 
 
-/* about section  */
+
+/* /contancts section */
