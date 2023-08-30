@@ -79,8 +79,18 @@
   color: var(--green);
 }
 
-.btn_sp {
+.btn_sp,
+.btn_sp:hover {
   border-color: var(--white);
+}
+
+.btn_send:hover {
+  background-color: rgba(26, 188, 156, .5);
+}
+
+.btn_donwload:hover {
+  background-color: var(--white);
+  color: var(--green);
 }
 
 .input_sp {
