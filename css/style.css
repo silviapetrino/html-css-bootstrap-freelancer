@@ -3,6 +3,7 @@
   --green: #1ABC9C;
   --white: #FFFFFF;
 }
+
 /* debug utility */
 [class^="row"],
 [class^="col"] {
@@ -12,8 +13,7 @@
   
 /*  /debug utility */ 
 
-
  .container_sp {
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
  }
