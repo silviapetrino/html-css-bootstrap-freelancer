@@ -52,6 +52,7 @@
   position: relative;
 }
 
+
 .star i {
   font-size: 1.3rem;
   position: absolute;
@@ -107,14 +108,6 @@
    
 
 
-/* header section */
-header {
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-}
-
-/* /header section */
 
 /* hero section  */
 
